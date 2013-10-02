@@ -67,6 +67,10 @@ small {
 	color: #999;
 	font-weight: normal;
 }
+input {
+	-webkit-border-radius: 0;
+	-webkit-appearance: none;
+}
 input, .faux-input, select, input[type=submit] {
 	display: block;
 	border: 3px solid #ccc;
@@ -77,6 +81,7 @@ input, .faux-input, select, input[type=submit] {
 }
 input[type=submit] {
 	padding: .75em .5em;
+	margin-bottom: 1em;
 	border: 0;
 	background: #333;
 	color: white;
